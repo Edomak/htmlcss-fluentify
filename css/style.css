@@ -188,7 +188,7 @@ h1 {
     width: 80%;
 }
 
- .right3 .section-img img {
+.right3 .section-img img {
     width: 60%;
 }
 
@@ -199,12 +199,18 @@ h1 {
 .content h3 {
      color: #7eb705;
      font-size: 25px;
-     margin-bottom: 30px;
+     margin-bottom: 25px;
     }
+
+.hr-central {
+    width: 80px;
+    margin: auto;
+}
 
 .content p {
      color: gray;
      font-size: 15px;
+     margin-top: 25px;
     }
 
 /* section a 2 colonne */
