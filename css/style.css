@@ -143,7 +143,7 @@ h1 {
 
 .banner-text > h2 {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 00;
     margin-bottom: 10px;
 }
 
@@ -213,7 +213,8 @@ h1 {
 
 .left2 {
     background-image: url(../img/mountain.svg);
-    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
 }
 
 .right2 {
@@ -228,7 +229,8 @@ h1 {
 }
 
 .sections2-content h2 {
-    font-size: 35px;
+    font-size: 32px;
+    font-weight: 500;
     padding-bottom: 20px;
 }
 
@@ -240,5 +242,24 @@ h1 {
 
 .sections2-content a {
     font-size: 15px;
-    color:  #2A4F75;
+    color:#045ea5;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.container > h2 {
+    position: relative;
+    top: 60px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+
+
