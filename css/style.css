@@ -93,8 +93,8 @@ nav {
 }
 
 .green-btn {
-    background-color: greenyellow;
-    border: 1px solid greenyellow;
+    background-color:#7eb705;
+    border: 1px solid #7eb705;
     line-height: 20px;
 }
 
@@ -127,9 +127,9 @@ h1 {
 /* banner */
 
 .banner {
+    position: relative;
     height: 130px;
     background-color: lightgray;
-    position: relative;
     margin-bottom: 30px;
 }
 
@@ -183,17 +183,62 @@ h1 {
     width: 60%;
 }
 
- .content {
+.content {
      text-align: center;
     }
 
- .content h3 {
-     color: greenyellow;
+.content h3 {
+     color: #7eb705;
      font-size: 25px;
      margin-bottom: 30px;
     }
 
- .content p {
+.content p {
      color: gray;
      font-size: 15px;
     }
+
+/* section a 2 colonne */
+
+.sections2 {
+        height: 450px;
+        margin-top: 20px;
+    }
+
+.left2,
+.right2 {
+    width: 50%;
+    height: 100%;
+}
+
+.left2 {
+    background-image: url(../img/mountain.svg);
+    background-size: cover;
+}
+
+.right2 {
+    position: relative;
+}
+
+.right2 .sections2-content {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    width: 80%;
+}
+
+.sections2-content h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.sections2-content p {
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.sections2-content a {
+    font-size: 15px;
+    color:  #2A4F75;
+}
