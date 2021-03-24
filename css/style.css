@@ -130,6 +130,7 @@ h1 {
     height: 130px;
     background-color: lightgray;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .banner-text {
@@ -142,11 +143,12 @@ h1 {
 
 .banner-text > h2 {
     font-size: 30px;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .banner-text > p {
-    font-size: 15px;
+    font-size: 16px;
     color: gray;
 }
 
@@ -154,7 +156,6 @@ h1 {
 
 .sections3 {
     height: 450px;
-    background-color: beige;
 }
 
 .left3,
@@ -162,16 +163,37 @@ h1 {
 .right3 {
     width: 33%;
     height: 100%;
+    padding: 0 20px;
 }
 
-.left3 {
-    background-color: red;
+.section-img {
+    height: 50%;
+    text-align: center;
 }
 
-.middle3 {
-    background-color: greenyellow;
+.left3 .section-img img {
+   width: 50%;
 }
 
-.right3 {
-    background-color: blue;
+.middle3 .section-img img {
+    width: 80%;
 }
+
+ .right3 .section-img img {
+    width: 60%;
+}
+
+ .content {
+     text-align: center;
+    }
+
+ .content h3 {
+     color: greenyellow;
+     font-size: 25px;
+     margin-bottom: 30px;
+    }
+
+ .content p {
+     color: gray;
+     font-size: 15px;
+    }
