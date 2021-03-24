@@ -15,3 +15,38 @@ body {
     display: table;
     clear: both;
 }
+.float-left {
+    float: left;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/* header */
+header {
+    height: 550px;
+    background-color: #2A4F75;
+}
+
+nav {
+    height: 80px;
+    line-height: 80px;
+}
+
+.header-logo {
+    width: 15%;
+    height: 100%;
+}
+
+.nav-left {
+    width: 45%;
+    height: 100%;
+    background-color: red;
+}
+
+.nav-right {
+    width: 40%;
+    height: 100%;
+    background-color: yellow;
+}
