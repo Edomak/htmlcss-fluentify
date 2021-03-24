@@ -122,3 +122,56 @@ h1 {
     left: 0;
     transform: translate(0,-50%);
 }
+/* main */
+
+/* banner */
+
+.banner {
+    height: 130px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.banner-text > h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.banner-text > p {
+    font-size: 15px;
+    color: gray;
+}
+
+/* section a 3 colonne */
+
+.sections3 {
+    height: 450px;
+    background-color: beige;
+}
+
+.left3,
+.middle3,
+.right3 {
+    width: 33%;
+    height: 100%;
+}
+
+.left3 {
+    background-color: red;
+}
+
+.middle3 {
+    background-color: greenyellow;
+}
+
+.right3 {
+    background-color: blue;
+}
