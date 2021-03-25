@@ -41,7 +41,6 @@ nav {
 
 .header-logo {
     width: 15%;
-    height: 100%;
 }
 
 .header-logo img {
@@ -52,6 +51,11 @@ nav {
     width: 45%;
 }
 
+.nav-right {
+    width: 40%;
+    text-align: right;
+}
+/* menu-nav*/
 .list-inline {
     list-style: none;
 }
@@ -71,16 +75,6 @@ nav {
 
 .list-inline a:hover {
     color: #7eb705;
-}
-
-.green-btn:hover {
-    background-color: white;
-    color: #7eb705;
-}
-
-.nav-right {
-    width: 40%;
-    text-align: right;
 }
 
 /* buttons */
@@ -109,6 +103,11 @@ nav {
 
 .btn-lg {
     padding: 20px;
+}
+
+.green-btn:hover {
+    background-color:  #2A4F75;
+    color: #7eb705;
 }
 
 /* jumbotron-content */
@@ -193,14 +192,14 @@ h1 {
 }
 
 .content {
-     text-align: center;
-    }
+    text-align: center;
+}
 
 .content h3 {
-     color: #7eb705;
-     font-size: 25px;
-     margin-bottom: 25px;
-    }
+    color: #7eb705;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
 
 .hr-central {
     width: 80px;
@@ -208,17 +207,17 @@ h1 {
 }
 
 .content p {
-     color: gray;
-     font-size: 15px;
-     margin-top: 25px;
-    }
+    color: gray;
+    font-size: 15px;
+    margin-top: 25px;
+}
 
 /* section a 2 colonne */
 
 .sections2 {
-        height: 450px;
-        margin-top: 20px;
-    }
+    height: 450px;
+    margin-top: 20px;
+}
 
 .left2,
 .right2 {
@@ -290,6 +289,19 @@ span {
     margin-top: 15px;
 }
 
+#select {
+    border-bottom: 1px solid gray;
+    margin-right: 20px;
+}
 
+#label {
+    margin-right: 20px;
+}
+
+#select::after {
+    content: ' \02D1';
+    font-size: 30px;
+    padding-left: 100px;
+}
 
 
